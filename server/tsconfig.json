@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "target": "ES6",
+    "paths": {
+      "@config": ["./src/config"],
+      "@utils/*": ["./src/utils/*"],
+      "@modules/*": ["./src/modules/*"],
+      "@db/*": ["./src/db/*"]
+    },
+    "incremental": true
+  },
+  "exclude": ["node_modules", "dist", "temp"]
+}

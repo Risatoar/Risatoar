@@ -13,7 +13,8 @@
       "@config": ["./src/config"],
       "@utils/*": ["./src/utils/*"],
       "@modules/*": ["./src/modules/*"],
-      "@db/*": ["./src/db/*"]
+      "@db/*": ["./src/db/*"],
+      "@src/*": ["./src/*"],
     },
     "incremental": true
   },
